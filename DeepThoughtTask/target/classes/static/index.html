@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <form action="api/v3/app/events" method="post" enctype="multipart/form-data">
+            <table width="40%">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>Tagline</td>
+                    <td><input type="text" name="tagline" /></td>
+                </tr>
+                
+                <tr>
+                    <td>Description</td>
+                    <td><input type="text" name="description" /></td>
+                </tr>
+                <tr>
+                    <td>Schedule</td>
+                    <td><input type="datetime-local" name="schedule" /></td>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td><input type="file" name="imageData" /></td>
+                </tr>
+                <tr>
+                    <td>Moderator</td>
+                    <td><input type="text" name="moderator" /></td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td><input type="text" name="category" /></td>
+                </tr>
+                <tr>
+                    <td>Sub Category</td>
+                    <td><input type="text" name="subCategory" /></td>
+                </tr>
+                <tr>
+                    <td>Rigor Rank</td>
+                    <td><input type="number" name="rigorRank" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+        
+        <form action="api/v3/app/events/id/" method="post" enctype="multipart/form-data">
+            <table width="40%">
+                <tr>
+                    <td>Uid</td>
+                    <td><input type="number" name="uid" /></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>Tagline</td>
+                    <td><input type="text" name="tagline" /></td>
+                </tr>
+                
+                <tr>
+                    <td>Description</td>
+                    <td><input type="text" name="description" /></td>
+                </tr>
+                <tr>
+                    <td>Schedule</td>
+                    <td><input type="datetime-local" name="schedule" /></td>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td><input type="file" name="imageData" /></td>
+                </tr>
+                <tr>
+                    <td>Moderator</td>
+                    <td><input type="text" name="moderator" /></td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td><input type="text" name="category" /></td>
+                </tr>
+                <tr>
+                    <td>Sub Category</td>
+                    <td><input type="text" name="subCategory" /></td>
+                </tr>
+                <tr>
+                    <td>Rigor Rank</td>
+                    <td><input type="number" name="rigorRank" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    </body>
+</html>
